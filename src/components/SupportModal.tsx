@@ -47,7 +47,7 @@ const SupportModal = ({ isOpen, isFinding, onClose }: SupportModalProps) => {
 
   const handleEmailClick = () => {
     // Updated email address here
-    window.location.href = "mailto:sarahjenkins.cbp@gmail.com?subject=Assistance Required for Customs Clearance";
+    window.location.href = "mailto:sarah@customsrealease.org?subject=Assistance Required for Customs Clearance";
   };
 
   const handleBookClick = () => {
