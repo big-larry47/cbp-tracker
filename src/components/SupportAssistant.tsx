@@ -163,7 +163,7 @@ const SupportAssistant = () => {
 
   return (
     <>
-      {/* 1. Support Card - CHANGED: added id for smooth scrolling */}
+      {/* 1. Support Card */}
       <div id="support-section" className="bg-gradient-to-br from-[#2e9498] to-[#217579] rounded-2xl p-6 text-white max-w-sm relative overflow-hidden shadow-md">
         <div className="absolute right-0 top-0 opacity-10 transform translate-x-1/4 -translate-y-1/4 pointer-events-none">
           <Headset size={140} />
@@ -237,7 +237,7 @@ const SupportAssistant = () => {
                         <Mail className="h-4 w-4" /> Email Sarah
                       </button>
                       <button onClick={() => setModalView('booking')} className="w-full sm:w-auto flex items-center justify-center gap-2 bg-white border-2 border-gray-200 px-8 py-3.5 rounded-xl text-sm font-semibold text-gray-700 hover:bg-gray-50 hover:border-gray-300 transition-all">
-                        <CalendarIcon className="h-4 w-4 text-[#004B87]" /> Book a Call
+                        <CalendarIcon className="h-4 w-4 text-[#004B87]" /> Book a Phone Call
                       </button>
                     </div>
                   </div>
